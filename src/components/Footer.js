@@ -2,12 +2,9 @@ import React from 'react';
 
 const Footer = () => {
 	return (
-		<footer className="text-muted bg-transparent">
-			<div className="container">
-				<p className="text-muted">Social media</p>
-				<p className="float-right text-light">
-					<a href="#">Back to top</a>
-				</p>
+		<footer id="sticky-footer" className="py-4 bg-dark text-white-50">
+			<div className="container text-center">
+				<small>Copyright &copy; Javier Sánchez Fernández</small>
 			</div>
 		</footer>
 	);

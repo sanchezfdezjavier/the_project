@@ -1,15 +1,15 @@
 import React from 'react';
+import speech_image from '../media/images/yolo.png';
 
 const Card = () => {
 	return (
-		<div className="card mb-4 shadow-sm">
-			<img
-				className="card-img-top"
-				data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
-				alt="Thumbnail"
-			/>
-			<div className="card-body">
-				<p className="card-text">A brief explanation about the algorithm</p>
+		<div className="col-xl-6 col-md-6 mb-6" id="card">
+			<div className="card border-0 shadow">
+				<img src={speech_image} className="card-img-top" alt="Algo1" />
+				<div className="card-body text-center">
+					<h5 className="card-title mb-0">YOLO (You only look once)	</h5>
+					<div className="card-text text-black-50">The most popular object detection algorithm</div>
+				</div>
 			</div>
 		</div>
 	);
