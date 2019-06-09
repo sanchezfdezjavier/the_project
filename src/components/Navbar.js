@@ -7,7 +7,7 @@ import React from 'react';
 */
 const Navbar = () => {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+		<nav className="navbar navbar-expand-lg navbar-dark fixed-top">
 			<a className="navbar-brand" href="#">
 				MiLogo
 			</a>
@@ -48,6 +48,11 @@ const Navbar = () => {
 					<li className="nav-item">
 						<a className="nav-link" href="#">
 							Gallery
+						</a>
+					</li>
+					<li className="nav-item fixed-right">
+						<a className="nav-link" href="#">
+							Language
 						</a>
 					</li>
 				</ul>

@@ -1,12 +1,12 @@
 import React from 'react';
-import backgroud_video from '../media/videos/background_video.mp4';
+import backgroud_video from '../media/videos/background_lines.mp4';
 
 const BackVideo = () => {
 	return (
 		<header>
 			<div className="overlay">
 				<video playsInline="playsinline" autoPlay="autoplay" muted="muted" loop="loop">
-					<img alt="soud spectre" src={backgroud_video} />
+					<source alt="soud spectre" src={backgroud_video} />
 				</video>
 				<div className="container h-100">
 					<div className="d-flex h-100 text-center align-items-center">
