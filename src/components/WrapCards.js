@@ -1,19 +1,25 @@
 import Card from './Card';
 import React from 'react';
+import yolo from '../media/images/yolo.png';
 
-const WrapCards = () => {
-	return (
-		<div className="container">
-			<div className="row">
-				<Card />
-				<Card />
+class WrapCards extends React.Component {
+	renderCard(image_path){
+		
+	}
+	render() {
+		return (
+			<div className="container">
+				<div className="row">
+					<Card />
+					<Card />
+				</div>
+				<div className="row">
+					<Card />
+					<Card />
+				</div>
 			</div>
-			<div className="row">
-				<Card />
-				<Card />
-			</div>
-		</div>
-	);
-};
+		);
+	}
+}
 
 export default WrapCards;
