@@ -8,7 +8,7 @@ const BackVideo = () => {
 		<header>
 			<div className="overlay">
 				<video playsInline="playsinline" autoPlay="autoplay" muted="muted" loop="loop">
-					<source alt="soud spectre" src={background_net_slow} />
+					<source alt="soud spectre" src={backgroud_net_fast	} />
 				</video>
 				<div className="container h-100">
 					<div className="d-flex h-100 text-center align-items-center">

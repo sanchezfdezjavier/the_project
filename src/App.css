@@ -1,10 +1,9 @@
-:root {
-	--jumbotron-padding-y: 3rem;
-}
+/*Navbar*/
 
 footer {
 	padding-top: 3rem;
 	padding-bottom: 3rem;
+	background-color: #000000;
 }
 
 footer p {
@@ -15,12 +14,12 @@ footer p {
 
 html,
 body {
-	background: #000000; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to bottom, #434343, #000000); /* Chrome 10-25, Safari 5.1-6 */
+	background: #ece9e6; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #ffffff, #ece9e6); /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(
-		to bottom,
-		#434343,
-		#000000
+		to top,
+		#ffffff8c,
+		#ece9e6
 	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -36,7 +35,6 @@ body {
 
 header {
 	position: relative;
-	background-color: black;
 	height: 75vh;
 	min-height: 25rem;
 	width: 100%;
@@ -52,9 +50,9 @@ header video {
 	width: auto;
 	height: auto;
 	z-index: 0;
-	-ms-transform: translateX(-25%) translateY(-25%);
-	-moz-transform: translateX(-25%) translateY(-25%);
-	-webkit-transform: translateX(-25%) translateY(-25%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
 }
 

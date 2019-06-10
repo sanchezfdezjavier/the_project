@@ -8,8 +8,10 @@ import Logo_white from '../media/images/Logo_transparent_white.png';
 |--------------------------------------------------
 */
 const Navbar = () => {
+	const nav_style = 'bg-trasparent';
+	const nav_style_white = 'bg-light';
 	return (
-		<nav className="navbar navbar-dark navbar-expand-lg fixed-top">
+		<nav className="navbar navbar-dark bg-transparent navbar-expand-lg fixed-top">
 			<a className="navbar-brand" href="">
 				<img src={Logo_white} width="50" height="50" alt="Logo brand" />
 			</a>
