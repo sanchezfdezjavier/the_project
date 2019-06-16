@@ -1,15 +1,13 @@
 import React from 'react';
-import backgroud_blue from '../media/videos/background_lines.mp4';
-import backgroud_net_fast from '../media/videos/background_net.mp4';
-import background_net_slow from '../media/videos/background_net_slow.mp4';
-import Logo_white from '../media/images/Logo_transparent_white.png';
+import backvideo from '../media/videos/backvideo.mp4';
+import Logo_white from '../media/images/LogoV1_transparent_white_web.png';
 
 const BackVideo = () => {
 	return (
 		<header>
 			<div className="overlay">
 				<video playsInline="playsinline" autoPlay="autoplay" muted="muted" loop="loop">
-					<source alt="soud spectre" src={backgroud_net_fast} />
+					<source alt="soud spectre" src={backvideo} />
 				</video>
 				<div className="container h-100">
 					<div className="d-flex h-100 text-center align-items-center">

@@ -87,7 +87,7 @@ class Tensorflow extends Component {
 			<div className="container tensorflow-js">
 				<h2 className="row">
 					<img src={tfLogo} className="" alt="Responsive image" width="50" height="50" />
-					Powered by Tensorflow.js
+					<small>Powered by Tensorflow.js</small>
 				</h2>
 				<form className="form" onSubmit={this.handleSubmit}>
 					<div className="container form-row">
@@ -112,7 +112,7 @@ class Tensorflow extends Component {
 					</div>
 				</form>
 				<br />
-				<button type="button" className="btn btn-light" onClick={this.handleSubmit}>
+				<button type="button" className="btn btn-secondary" onClick={this.handleSubmit}>
 					Submit
 				</button>
 				<div className="canvas">

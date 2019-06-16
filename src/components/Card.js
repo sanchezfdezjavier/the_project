@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import image_placeholder from '../media/images/yolo.png';
 
-class Card extends Component {
+export default class Card extends Component {
 	constructor() {
 		super();
 	}
@@ -20,4 +19,3 @@ class Card extends Component {
 		);
 	}
 }
-export default Card;

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Logo_black from '../media/images/Logo_web.png';
-import Logo_white from '../media/images/Logo_transparent_white.png';
+import Logo_white from '../media/images/LogoV1_transparent_white_web.png';
+import Logo_black from '../media/images/yolo.png';
 
 /**
 |--------------------------------------------------
@@ -8,9 +8,17 @@ import Logo_white from '../media/images/Logo_transparent_white.png';
 |--------------------------------------------------
 */
 class Navbar extends Component {
+	constructor() {
+		super();
+		this.state = {
+			navStyleStart: 'navbar navbar-dark bg-trasparent navbar-expand-lg fixed-top',
+			navStyleScrolled: 'navbar navbar-dark bg-dark navbar-expand-lg fixed-top'
+		};
+	}
+
 	render() {
 		return (
-			<nav className="navbar navbar-dark bg-transparent navbar-expand-lg fixed-top">
+			<nav className={this.state.navStyleScrolled}>
 				<a className="navbar-brand" href="#">
 					<img src={Logo_white} width="40" height="40" alt="Logo brand" />
 				</a>

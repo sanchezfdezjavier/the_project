@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Bar } from 'react-chartjs-2';
 
 // Silly testing with chart.js
-class Chart extends Component {
+export default class Chart extends Component {
 	constructor() {
 		super();
 		this.state = {
@@ -14,7 +14,7 @@ class Chart extends Component {
 						data: [ 12, 343, 545, 65 ]
 					}
 				],
-				backgroundColor: [ '#ff6384', '#ff6384', '#ff6384', '#ff6384' ]
+				backgroundColor: [ '##0080ff', '##ff0000', '#ff6384', '#ff6384' ]
 			}
 		};
 	}
@@ -27,5 +27,3 @@ class Chart extends Component {
 		);
 	}
 }
-
-export default Chart;

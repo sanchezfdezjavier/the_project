@@ -1,5 +1,6 @@
-/*Navbar*/
-
+div#root {
+	font-family: 'Roboto', sans-serif;
+}
 footer {
 	padding-top: 3rem;
 	padding-bottom: 3rem;
@@ -66,7 +67,7 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
 	header {
-		background: url('./media/videos/background_lines.mp4') black no-repeat center center scroll;
+		background: url('./media/videos/backvideo.mp4') black no-repeat center center scroll;
 	}
 	header video {
 		display: none;

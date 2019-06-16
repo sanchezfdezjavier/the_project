@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
 import Home from './Home';
-import Tensor from './Tensorflow';
 import Tensorflow from './Tensorflow';
 import Chart from './Chart';
 
-class MainContent extends Component {
+export default class MainContent extends Component {
 	render() {
 		return (
 			<div className="main-content">
+				<Home />
 				<Tensorflow />
+				<Chart />
 			</div>
 		);
 	}
 }
-
-export default MainContent;

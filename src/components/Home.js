@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 import BackVideo from './BackVideo';
 import WrapCards from './WrapCards';
 
-class Home extends Component {
+export default class Home extends Component {
 	render() {
 		return (
 			<div className="home">
@@ -13,5 +13,3 @@ class Home extends Component {
 		);
 	}
 }
-
-export default Home;
