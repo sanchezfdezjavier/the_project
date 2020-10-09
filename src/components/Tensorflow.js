@@ -88,6 +88,7 @@ class Tensorflow extends Component {
 				<h2 className="row">
 					<img src={tfLogo} className="" alt="Responsive image" width="50" height="50" />
 					<small>Powered by Tensorflow.js</small>
+					<small>Powered by tennsorflow.js</small>
 				</h2>
 				<form className="form" onSubmit={this.handleSubmit}>
 					<div className="container form-row">

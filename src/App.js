@@ -15,3 +15,14 @@ export default class App extends Component {
 		);
 	}
 }
+function App() {
+	return (
+		<div className="App">
+			<Navbar/>
+			<MainContent />
+			<Footer/>
+		</div>
+	);
+}
+
+export default App;
